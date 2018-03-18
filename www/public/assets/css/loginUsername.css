@@ -35,14 +35,9 @@ img {
 }
 
 #logo-container {
-
-}
-
-#logo {
     margin: 0 auto;
     width: 12vh;
     height: 12vh;
-    background-color: whitesmoke;
 }
 
 #name-container {
