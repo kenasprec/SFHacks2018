@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+#back-button {
+    position: absolute;
+}
+
 #content-wrapper {
     position: relative;
     margin: 0 auto;
@@ -40,7 +44,7 @@ a {
     text-align: center;
     transform: translateY(50%);
 
-    font-size: 40px;
+    font-size: 44px;
     color: whitesmoke;
 }
 
@@ -64,7 +68,7 @@ a {
     background-color: whitesmoke;
 
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -76,7 +80,7 @@ a {
     background-color: whitesmoke;
 
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
 }
 
