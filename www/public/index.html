@@ -54,11 +54,11 @@
             </div>
         </div>
         <div id="button-container">
-            <a class="button-box" href="loginGoogle.html">
+            <a class="button-box">
                 <div class="button-text">
                     <button id="sign-in-button" onclick="loginGoogle()">
                         <i class="material-icons">account_circle</i>
-                        Sign in with Google v6
+                        Sign in with Google
                     </button>
                 </div>
             </a>
@@ -123,6 +123,9 @@
                 // The signed-in user info.
                 var user = result.user;
                 // ...
+
+                window.location.href = "test.html"
+                localStorage.user = user;
             }).catch(function (error) {
                 // Handle Errors here.
                 var errorCode = error.code;
