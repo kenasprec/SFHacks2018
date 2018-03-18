@@ -11,7 +11,7 @@ and open the template in the editor.
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Demonstrates the use of Google Cloud Database with a Firebase DB">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SFHacks 2018</title>
+  <title>Sign in with Username</title>
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
@@ -35,20 +35,47 @@ and open the template in the editor.
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-orange.min.css">
   <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-  <link rel="stylesheet" href="assets/css/loginUsername.css">
+  <!-- link rel="stylesheet" href="assets/css/site.css" -->
+    <link rel="stylesheet" type="text/css" href="assets/css/loginUsername.css">
 </head>
 
 <body>
-        <input id="username" type="text" placeholder="Username">
-        <br/>
-        <input id="password" type="text" placeholder="Password">
-        <br/>
-        <button id="loginButton" onclick="login()">Login to account</button>
-        <br/>
-        <br>
-        <a href="#">Forgot password</a>
-        </br>
-        <div id="results"></div>
+    <div id="back-button">
+
+    </div>
+    <div id="content-wrapper">
+        <div id="logo-container">
+            <div id="logo">
+                Insert Logo Here
+            </div>
+        </div>
+        <div id="name-container">
+            <div id="name-text">
+                Sign in
+            </div>
+        </div>
+
+        <div id="blank-space">
+
+        </div>
+
+        <div id="login-container">
+            <input id="username" type="text" placeholder="Username">
+            <br>
+            <input id="password" type="text" placeholder="Password">
+            <br>
+            <button id="loginButton" onclick="login()">Sign in to Account</button>
+            <br>
+            <a id="forget-password" href="#">
+                <div id="forget-password-text">
+                    Forgot password
+                </div>
+            </a>
+
+            <!-- div id="results"></div -->
+        </div>
+    </div>
+
 
     <div id="user_div" class="loggedin-div">
         <h3>Welcome User</h3>
