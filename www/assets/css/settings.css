@@ -1,0 +1,54 @@
+body, html {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #FFA657;
+    display: inline-block;
+}
+
+#back-container {
+    position: absolute;
+    height: 100%;
+    width: 10vh;
+}
+
+#back-button {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 50%;
+    height: 50%;
+}
+
+#name-container {
+    width: 100%;
+    height: 100%;
+}
+
+#name-box {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+#content-container {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 90%;
+}
